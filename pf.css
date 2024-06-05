@@ -1,0 +1,284 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.navbar{
+    height:50px;
+    width:100%;
+    background-color: black;
+    color: azure;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.more{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+.more a:hover{
+    background-color: fuchsia;
+    box-shadow: 0px 0px 5px whitesmoke;
+}
+.name{
+    color: fuchsia;
+    font-size: 30px;
+    position: absolute;
+    left:10px;
+    width:40%;
+
+}
+.front-pg-intro{
+    background-image: url("bg.jpeg");
+    width:100%;
+    height:600px;
+    background-size: cover;
+
+}
+.box{
+    background-color: rgb(46, 46, 44);
+    box-shadow: 2px 2px 5px rgb(255, 27, 153);
+    color: rgb(175, 39, 114);
+    height: 400px;
+    width:25%;
+    position:relative;
+    top:80px;
+    left:70%;
+    border: 2px solid beige;
+    align-items: center;
+}
+.img{
+    height:400px;
+    background-size:cover;
+
+
+}
+.intro{
+    color: white;
+    font-size: larger;
+    position:absolute;
+    top:30%;
+    left:10%;
+    right:40%;
+}
+.intro h2{
+    color: #d30f88;
+}
+.icons{
+    margin-top: 30px;
+    width:100px;
+    height:50px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px rgb(179, 84, 84);
+    
+}
+
+.skill{
+    background-color: black;
+    height:400px;
+    width:100%;
+    color:rgb(201, 190, 190);
+    font-style: italic;
+
+}
+
+.lang{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+
+.boxes{
+    width:20%;
+    height:250px;
+    padding:15px 0px 10px;
+    background-color: rgb(27, 27, 27);
+    color: rgb(158, 74, 74);
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+
+.boxes:hover{
+    transform: scale(0.8);
+}
+.skill h1{
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+.skill h1:hover{
+    color: rgb(214, 21, 111);
+    
+}
+.lang h2{
+    text-align: center;
+}
+.lang p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.lang i{
+    box-shadow:10px 10px 10px whitesmoke;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.Certificates{
+    background-color: black;
+    width:100%;
+    height: 400px;
+    font-style: italic;
+
+}
+.Certificates h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(238, 233, 237);
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+.Certificates h1:hover{
+    color: rgb(214, 21, 111);
+    
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.boxess{
+    width:30%;
+    height:250px;
+    background-color: rgb(91, 94, 94);
+    color: rgb(173, 167, 167);
+    border: 2px solid fuchsia;
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+.container .img{
+    width:100%;
+    height:200px;
+    background-size: cover;
+    
+}
+.boxess p{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(202, 177, 184);
+}
+.boxess:hover{
+    transform: scale(0.8);
+
+}
+.projects{
+    background-color: black;
+    width:100%;
+    height: 500px;
+    font-style: italic;
+}
+.projects h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(238, 233, 237);
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+.projects h1:hover{
+    color: rgb(214, 21, 111);
+    
+}
+
+.content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.myproject{
+    width:30%;
+    height:350px;
+    background-color: rgb(27, 27, 27);
+    box-shadow: 5px 5px 5px whitesmoke;
+    border:2px solid fuchsia;
+}
+.myproject:hover{
+    transform: scale(0.8);
+    box-shadow: 2px 2px 5px fuchsia;
+}
+.content .img{
+    width:100%;
+    height: 310px;
+    background-size: cover;
+
+}
+.content p{
+    font-size: 40px;
+    text-align: center;
+    color: azure;
+}
+.content p:hover{
+    color: blueviolet;
+}
+.contact{
+    background-image: url('bg.jpeg');
+    width:100%;
+    height:500px;
+    background-size: cover;
+    
+}
+.contact h1{
+    margin-top: 5px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(238, 233, 237);
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+.contact h1:hover{
+    color: rgb(214, 21, 111);
+    
+}
+.contact-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 40%;
+}
+input, textarea {
+    margin: 5px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10%;
+    border: 2px solid rgb(252, 15, 134);
+    box-shadow: 2px 2px 5px darkgrey;
+}
+#message{
+    height: 100px;
+
+}
+
+form button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    background-color: #d30f88;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #b1a2a3;
+    box-shadow: 2px 2px 2px fuchsia;
+}
